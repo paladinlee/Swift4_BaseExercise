@@ -10,3 +10,9 @@ import Foundation
 
 print("Hello, World!")
 
+var somecore:Int?
+let str="ABCDEF"
+let length=str.index(of:"D")
+let str1=str[str.startIndex]
+//print("\(length)")
+print(String(3))

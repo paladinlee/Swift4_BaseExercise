@@ -8,9 +8,13 @@
 
 import Foundation
 
-//字元、字串都是用雙引號包起來
-let c:Character="D"
-let str:String="ABCDEF"
+//比較兩個字串是否相等
 
-print(c)
-print(str)
+let str1:String="ABCDEF"
+let str2:String="ABCDEF"
+print(str1==str2)
+
+let strA:String="QQ"
+let strB:String="QW"
+print(strA==strB)
+

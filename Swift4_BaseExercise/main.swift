@@ -8,11 +8,9 @@
 
 import Foundation
 
-print("Hello, World!")
+//字元、字串都是用雙引號包起來
+let c:Character="D"
+let str:String="ABCDEF"
 
-var somecore:Int?
-let str="ABCDEF"
-let length=str.index(of:"D")
-let str1=str[str.startIndex]
-//print("\(length)")
-print(String(3))
+print(c)
+print(str)

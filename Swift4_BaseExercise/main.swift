@@ -8,13 +8,9 @@
 
 import Foundation
 
-//比較兩個字串是否相等
+//字串插入變數
 
-let str1:String="ABCDEF"
-let str2:String="ABCDEF"
-print(str1==str2)
-
-let strA:String="QQ"
-let strB:String="QW"
-print(strA==strB)
+let iDollar:Int=5
+let str2:String="I have \(iDollar) dollars."
+print(str2)
 

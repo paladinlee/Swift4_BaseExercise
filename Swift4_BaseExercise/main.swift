@@ -8,9 +8,22 @@
 
 import Foundation
 
-//字串插入變數
+//字串取特定的字
 
-let iDollar:Int=5
-let str2:String="I have \(iDollar) dollars."
-print(str2)
+let str="ABCDEF"
 
+//第一個字
+print(str[str.startIndex])
+
+//最後一個字
+print(str[str.index(before: str.endIndex)])
+
+//第一個字之後
+print(str[str.index(after:str.startIndex)])
+
+//第一個字 +3 的位置
+print(str[str.index(str.startIndex,offsetBy:3)])
+
+let index=str.index(of:"D")
+
+print(str[..<index!])

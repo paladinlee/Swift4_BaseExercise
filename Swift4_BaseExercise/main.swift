@@ -8,11 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
+for i in 1...10
+{
+    print(i)
+}
 
-var somecore:Int?
-let str="ABCDEF"
-let length=str.index(of:"D")
-let str1=str[str.startIndex]
-//print("\(length)")
-print(String(3))

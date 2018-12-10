@@ -8,8 +8,12 @@
 
 import Foundation
 
-for i in 1..<10
-{
-    print(i)
-}
+//for in 在陣列的使用
+let cityArray=["台北","新竹","台中","高雄"]
 
+
+for v in cityArray
+{
+    //字串可以用\()插入變數
+    print("現在位置在\(v)")
+}

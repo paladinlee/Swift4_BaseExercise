@@ -17,3 +17,11 @@ for v in cityArray
     //字串可以用\()插入變數
     print("現在位置在\(v)")
 }
+
+//將陣列排序
+var sortArray=cityArray.sorted()
+
+//foreach
+sortArray.forEach{(string) in
+    print(string)
+}
